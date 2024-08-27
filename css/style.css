@@ -6,7 +6,7 @@
     margin:0;
     vertical-align:baseline;
     list-style:none;
-    border:0
+    border:0;
     }
 
 /*======================
@@ -24,7 +24,7 @@ html body a{
     color: #21243D;
 }
 main{
-    margin: 0 20vw 0 20vw;
+    margin: 0 27vw 0 27vw;
 }
 
 /*===========================
@@ -114,6 +114,32 @@ section.rt-post ul:last-child{
 }
 section.rt-post ul li p{
 margin: 1.5vw 0 1.5vw 0;
+}
+section.ft-works h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 2vw 0vw 2vw 3vw;
+}
+section.ft-works > div{
+    display: flex;
+    margin: 2vw 0vw 2vw 3vw;
+}
+section.ft-works div h3{
+    margin: 2vw 0vw 2vw 0vw;
+}
+section.ft-works div p span{
+    color: white;
+    background-color: #142850;
+    border-radius: 35px;
+    padding: 1px 10px 1px 10px;
+    font-weight: bold;
+}
+section.ft-works div p.color{
+    color: #8695A4;
+}
+section.ft-works div p{
+    margin: 0vw 4vw 2vw 0vw;
+    font-weight: normal;
 }
 /*====================
  Formatação do rodapé
